@@ -1,0 +1,58 @@
+* {
+    
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+    color: white;
+    font: normal 15pt Arial;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+}
+
+section {
+    background-color: white;
+    width: auto;
+    height: auto;
+    color: black;
+    border-radius: 30px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding: 20px;
+}
+
+#txtn {
+    width: 40px;
+    height: 20px;
+    border-style: groove;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+input[type="button"] {
+    background-color: black;
+    color: white;
+    width: 100px;
+    height: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+    transition: background 0.6s;
+    border-radius: 10px;
+}
+
+#caixa {
+    width: 200px;
+    height: 200px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+input[type="button"]:hover {
+    background-color: white;
+    color: black;
+}
+

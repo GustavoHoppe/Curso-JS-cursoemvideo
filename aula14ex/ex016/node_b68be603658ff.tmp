@@ -1,0 +1,20 @@
+/* function calcular() {
+    let inicio = document.getElementById('inicio')
+    let fim = document.getElementById('fim')
+    let passo = document.getElementById('passo')
+    let res = document.getElementById('res')
+    inicio, fim, passo = Number
+
+    while (inicio == fim) {
+        res.innerHTML = `${inicio}`
+        inicio = inicio + passo
+        console.log(`${inicio}`)
+    }
+    
+} */
+c = 1 
+
+while (c= 10) {
+    console.log(c)
+    c++
+}
